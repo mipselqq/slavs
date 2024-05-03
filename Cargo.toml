@@ -1,0 +1,10 @@
+[workspace]
+members = ["macros"]
+
+[package]
+name = "slavs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macros = { path = "./macros" }
